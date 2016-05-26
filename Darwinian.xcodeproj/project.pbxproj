@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53CC0F521CF73ED400010597 /* Darwinian.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CC0F511CF73ED400010597 /* Darwinian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53CC0F591CF73ED400010597 /* Darwinian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CC0F4E1CF73ED400010597 /* Darwinian.framework */; };
+		53CC0F5E1CF73ED400010597 /* DarwinianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC0F5D1CF73ED400010597 /* DarwinianTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53CC0F5A1CF73ED400010597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CC0F451CF73ED400010597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CC0F4D1CF73ED400010597;
+			remoteInfo = Darwinian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53CC0F4E1CF73ED400010597 /* Darwinian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Darwinian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CC0F511CF73ED400010597 /* Darwinian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Darwinian.h; sourceTree = "<group>"; };
+		53CC0F531CF73ED400010597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CC0F581CF73ED400010597 /* DarwinianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarwinianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CC0F5D1CF73ED400010597 /* DarwinianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarwinianTests.swift; sourceTree = "<group>"; };
+		53CC0F5F1CF73ED400010597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CC0F4A1CF73ED400010597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CC0F551CF73ED400010597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CC0F591CF73ED400010597 /* Darwinian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53CC0F441CF73ED400010597 = {
+			isa = PBXGroup;
+			children = (
+				53CC0F501CF73ED400010597 /* Darwinian */,
+				53CC0F5C1CF73ED400010597 /* DarwinianTests */,
+				53CC0F4F1CF73ED400010597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53CC0F4F1CF73ED400010597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CC0F4E1CF73ED400010597 /* Darwinian.framework */,
+				53CC0F581CF73ED400010597 /* DarwinianTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53CC0F501CF73ED400010597 /* Darwinian */ = {
+			isa = PBXGroup;
+			children = (
+				53CC0F511CF73ED400010597 /* Darwinian.h */,
+				53CC0F531CF73ED400010597 /* Info.plist */,
+			);
+			path = Darwinian;
+			sourceTree = "<group>";
+		};
+		53CC0F5C1CF73ED400010597 /* DarwinianTests */ = {
+			isa = PBXGroup;
+			children = (
+				53CC0F5D1CF73ED400010597 /* DarwinianTests.swift */,
+				53CC0F5F1CF73ED400010597 /* Info.plist */,
+			);
+			path = DarwinianTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53CC0F4B1CF73ED400010597 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CC0F521CF73ED400010597 /* Darwinian.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53CC0F4D1CF73ED400010597 /* Darwinian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CC0F621CF73ED400010597 /* Build configuration list for PBXNativeTarget "Darwinian" */;
+			buildPhases = (
+				53CC0F491CF73ED400010597 /* Sources */,
+				53CC0F4A1CF73ED400010597 /* Frameworks */,
+				53CC0F4B1CF73ED400010597 /* Headers */,
+				53CC0F4C1CF73ED400010597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Darwinian;
+			productName = Darwinian;
+			productReference = 53CC0F4E1CF73ED400010597 /* Darwinian.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53CC0F571CF73ED400010597 /* DarwinianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CC0F651CF73ED400010597 /* Build configuration list for PBXNativeTarget "DarwinianTests" */;
+			buildPhases = (
+				53CC0F541CF73ED400010597 /* Sources */,
+				53CC0F551CF73ED400010597 /* Frameworks */,
+				53CC0F561CF73ED400010597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CC0F5B1CF73ED400010597 /* PBXTargetDependency */,
+			);
+			name = DarwinianTests;
+			productName = DarwinianTests;
+			productReference = 53CC0F581CF73ED400010597 /* DarwinianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53CC0F451CF73ED400010597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Irina Enterprises";
+				TargetAttributes = {
+					53CC0F4D1CF73ED400010597 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					53CC0F571CF73ED400010597 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 53CC0F481CF73ED400010597 /* Build configuration list for PBXProject "Darwinian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53CC0F441CF73ED400010597;
+			productRefGroup = 53CC0F4F1CF73ED400010597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53CC0F4D1CF73ED400010597 /* Darwinian */,
+				53CC0F571CF73ED400010597 /* DarwinianTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53CC0F4C1CF73ED400010597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CC0F561CF73ED400010597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53CC0F491CF73ED400010597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CC0F541CF73ED400010597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CC0F5E1CF73ED400010597 /* DarwinianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CC0F5B1CF73ED400010597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CC0F4D1CF73ED400010597 /* Darwinian */;
+			targetProxy = 53CC0F5A1CF73ED400010597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53CC0F601CF73ED400010597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53CC0F611CF73ED400010597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53CC0F631CF73ED400010597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Darwinian/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrinaEnterprises.Darwinian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		53CC0F641CF73ED400010597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Darwinian/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrinaEnterprises.Darwinian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		53CC0F661CF73ED400010597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DarwinianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrinaEnterprises.DarwinianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53CC0F671CF73ED400010597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DarwinianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrinaEnterprises.DarwinianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CC0F481CF73ED400010597 /* Build configuration list for PBXProject "Darwinian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CC0F601CF73ED400010597 /* Debug */,
+				53CC0F611CF73ED400010597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CC0F621CF73ED400010597 /* Build configuration list for PBXNativeTarget "Darwinian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CC0F631CF73ED400010597 /* Debug */,
+				53CC0F641CF73ED400010597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53CC0F651CF73ED400010597 /* Build configuration list for PBXNativeTarget "DarwinianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CC0F661CF73ED400010597 /* Debug */,
+				53CC0F671CF73ED400010597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CC0F451CF73ED400010597 /* Project object */;
+}
