@@ -78,9 +78,14 @@ class Random: RandomNumberGenerator {
     }
 }
 // MARK:- Vector
+let ZeroVector = Vector()
 public struct Vector : Equatable {
     public let x:Double
     public let y:Double
+    init() {
+        self.x = 0
+        self.y = 0
+    }
     init(x:Double, y:Double) {
         self.x = x
         self.y = y
@@ -98,7 +103,6 @@ public struct Vector : Equatable {
         return (vector1.x * vector2.x + vector1.y * vector2.y)
     }
 }
-public let ZeroVector = Vector(x: 0, y: 0)
 public func *(lhs:Vector,rhs:Double) -> Vector {
     return Vector(x: lhs.x*rhs, y: lhs.y*rhs)
 }

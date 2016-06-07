@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5391B5A31CFDD82C00A553CC /* AStarNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391B5A21CFDD82C00A553CC /* AStarNavigator.swift */; };
 		5391B5A71D01BEC600A553CC /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391B5A61D01BEC600A553CC /* Node.swift */; };
+		53A39FFB1D06B3320016A616 /* Behaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A39FFA1D06B3320016A616 /* Behaviour.swift */; };
 		53CC0F521CF73ED400010597 /* Darwinian.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CC0F511CF73ED400010597 /* Darwinian.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53CC0F591CF73ED400010597 /* Darwinian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CC0F4E1CF73ED400010597 /* Darwinian.framework */; };
 		53CC0F5E1CF73ED400010597 /* DarwinianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC0F5D1CF73ED400010597 /* DarwinianTests.swift */; };
@@ -22,7 +23,7 @@
 		53CC0F8C1CF741B500010597 /* Darwinian.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53CC0F4E1CF73ED400010597 /* Darwinian.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		53CC0F911CF7511100010597 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC0F901CF7511100010597 /* Utilities.swift */; };
 		53CC0F931CF8A4BF00010597 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC0F921CF8A4BF00010597 /* WorldView.swift */; };
-		53FC9C661D042C5100B46A7B /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC9C651D042C5100B46A7B /* Physics.swift */; };
+		53FC9C661D042C5100B46A7B /* Physics Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC9C651D042C5100B46A7B /* Physics Engine.swift */; };
 		53FC9C681D042D5000B46A7B /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC9C671D042D5000B46A7B /* AI.swift */; };
 		53FC9C6B1D042E3B00B46A7B /* RunloopComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC9C6A1D042E3B00B46A7B /* RunloopComponent.swift */; };
 		53FC9C6D1D042EB700B46A7B /* PostUpdateProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC9C6C1D042EB700B46A7B /* PostUpdateProcessor.swift */; };
@@ -70,6 +71,7 @@
 /* Begin PBXFileReference section */
 		5391B5A21CFDD82C00A553CC /* AStarNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AStarNavigator.swift; sourceTree = "<group>"; };
 		5391B5A61D01BEC600A553CC /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		53A39FFA1D06B3320016A616 /* Behaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Behaviour.swift; sourceTree = "<group>"; };
 		53CC0F4E1CF73ED400010597 /* Darwinian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Darwinian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CC0F511CF73ED400010597 /* Darwinian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Darwinian.h; sourceTree = "<group>"; };
 		53CC0F531CF73ED400010597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,7 +90,7 @@
 		53CC0F841CF741A000010597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53CC0F901CF7511100010597 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		53CC0F921CF8A4BF00010597 /* WorldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
-		53FC9C651D042C5100B46A7B /* Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
+		53FC9C651D042C5100B46A7B /* Physics Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Physics Engine.swift"; sourceTree = "<group>"; };
 		53FC9C671D042D5000B46A7B /* AI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AI.swift; sourceTree = "<group>"; };
 		53FC9C6A1D042E3B00B46A7B /* RunloopComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunloopComponent.swift; sourceTree = "<group>"; };
 		53FC9C6C1D042EB700B46A7B /* PostUpdateProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostUpdateProcessor.swift; sourceTree = "<group>"; };
@@ -155,6 +157,14 @@
 			name = Nodes;
 			sourceTree = "<group>";
 		};
+		53A39FF91D06B3120016A616 /* Behaviours */ = {
+			isa = PBXGroup;
+			children = (
+				53A39FFA1D06B3320016A616 /* Behaviour.swift */,
+			);
+			name = Behaviours;
+			sourceTree = "<group>";
+		};
 		53CC0F441CF73ED400010597 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +191,7 @@
 		53CC0F501CF73ED400010597 /* Darwinian */ = {
 			isa = PBXGroup;
 			children = (
+				53A39FF91D06B3120016A616 /* Behaviours */,
 				53FC9C6E1D042F0B00B46A7B /* Runloop */,
 				5391B5A51D01BEA600A553CC /* Nodes */,
 				53CC0F511CF73ED400010597 /* Darwinian.h */,
@@ -222,12 +233,12 @@
 			path = DarwinMacTests;
 			sourceTree = "<group>";
 		};
-		53FC9C641D042C1700B46A7B /* Physics */ = {
+		53FC9C641D042C1700B46A7B /* Physics Engine */ = {
 			isa = PBXGroup;
 			children = (
-				53FC9C651D042C5100B46A7B /* Physics.swift */,
+				53FC9C651D042C5100B46A7B /* Physics Engine.swift */,
 			);
-			name = Physics;
+			name = "Physics Engine";
 			sourceTree = "<group>";
 		};
 		53FC9C691D042D9900B46A7B /* Runloop components */ = {
@@ -236,7 +247,7 @@
 				53FC9C6F1D042F6D00B46A7B /* Runloop.swift */,
 				53FC9C6A1D042E3B00B46A7B /* RunloopComponent.swift */,
 				5391B5A11CFDD7FD00A553CC /* AI */,
-				53FC9C641D042C1700B46A7B /* Physics */,
+				53FC9C641D042C1700B46A7B /* Physics Engine */,
 				53FC9C711D043FFC00B46A7B /* PostUpdateProcessor */,
 			);
 			name = "Runloop components";
@@ -432,12 +443,13 @@
 				53CC0F911CF7511100010597 /* Utilities.swift in Sources */,
 				5391B5A71D01BEC600A553CC /* Node.swift in Sources */,
 				53FC9C6B1D042E3B00B46A7B /* RunloopComponent.swift in Sources */,
-				53FC9C661D042C5100B46A7B /* Physics.swift in Sources */,
+				53FC9C661D042C5100B46A7B /* Physics Engine.swift in Sources */,
 				53CC0F691CF73F0D00010597 /* World.swift in Sources */,
 				53FC9C6D1D042EB700B46A7B /* PostUpdateProcessor.swift in Sources */,
 				5391B5A31CFDD82C00A553CC /* AStarNavigator.swift in Sources */,
 				53FC9C701D042F6D00B46A7B /* Runloop.swift in Sources */,
 				53FC9C681D042D5000B46A7B /* AI.swift in Sources */,
+				53A39FFB1D06B3320016A616 /* Behaviour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

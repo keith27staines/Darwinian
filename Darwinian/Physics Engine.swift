@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Physics : RunloopComponent {
+struct PhysicsEngine : RunloopComponent {
     func update(dt:Double, world:World) {
         print("Physics update")
     }
